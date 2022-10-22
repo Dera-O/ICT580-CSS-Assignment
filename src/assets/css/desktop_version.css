@@ -104,3 +104,51 @@ footer p{
     text-align: center;
 }
 
+@media (max-width:700px) {
+    #stagbeetle{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem 0 3rem 0;
+    }
+
+    #ladybug{
+        background-color: #FFD5AE;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem 0 3rem 0;
+    }
+
+    #bluemintbeetle{
+        background-color: #FFBD82;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem 0 3rem 0;
+    }
+
+    .text{
+        background-color: #fff;
+        color: #000;
+        box-sizing: border-box;
+        padding: 2rem;
+        max-width: 63%;
+        margin-right:2.5rem;
+    }
+
+    .text h2{
+        text-align: center;
+    }
+
+    footer{
+        padding: 0.5rem 0 0.5rem 0;
+    }
+
+    footer p{
+        text-align: center;
+    }
+}
